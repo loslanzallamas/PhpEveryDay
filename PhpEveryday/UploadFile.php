@@ -13,6 +13,7 @@
 
 <?php
 	$submit = $_REQUEST['submit'];
+	print_r($_SERVER);
 	
 	if($submit){
 		$uploaddir = $_SERVER['DOCUMENT_ROOT']."/phpsecuriy/bab1/";
